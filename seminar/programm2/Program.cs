@@ -1,2 +1,23 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача4
+//2, 3, 7 -> 7
+//44 5 78 -> 78
+//22 3 9 -> 22
+
+Console.Clear();
+int [] number = new int [3];
+string [] title = {"первое", "второе", "третье"};
+int   ;
+while (count < number.Length)
+{
+    Console.Write( $"Введите {title[count]} число: " );
+    number[count] = int.Parse(Console.ReadLine;
+    count++;
+}
+int max = number[0];
+count = 0;
+while (count < number.Length)
+{
+if(max < number[count]){max = number[count]; }
+count++;
+}
+Console.WriteLine($"Максимальное число равно {max}");
