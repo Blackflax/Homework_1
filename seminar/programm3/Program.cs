@@ -3,12 +3,8 @@
 //-3 -> нет
 //7 -> нет
 
-Консоль.Очистить();
-
-Консоль.Write("ВВедите число: ");
-
-int var = int.Синтаксическийанализ(консоль.Строка чтения());
-
-if(var % 2 == 0) {Консоль.WriteLine($"Да число {var} является четным");}
-
-else {Консоль.WriteLine($"Число {var} не является четным");}
+Console.Clear();
+Console.Write("ВВедите число: ");
+int var = int.Parse(Console.ReadLine());
+if(var % 2 == 0) {Console.WriteLine($"Да число {var} является четным");}
+else {Console.WriteLine($"Число {var} не является четным");}
